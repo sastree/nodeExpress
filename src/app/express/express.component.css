@@ -56,3 +56,43 @@ h1 {
       margin-top: 30px;
     }
 
+
+
+    @media only screen and (max-width: 767px) {
+        .contenedor {
+            width: 100%;
+        }
+        p {
+            margin-top: 10px;
+            text-align: left;
+            letter-spacing: 1px; 
+            word-spacing: 1px; 
+            width: 60%;
+            font-size: 16px;
+            line-height: 1.2;
+        }
+        h1 {
+            font-size: 20px;
+            text-align: center;
+        }
+        .video-container iframe{
+            width: auto;
+            height: auto;
+          }
+      }
+      
+      /* Tabletas en orientación vertical */
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        
+      }
+      
+      /* Tabletas en orientación horizontal y computadoras portátiles pequeñas */
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        /* Estilos específicos para tabletas en orientación horizontal y computadoras portátiles pequeñas */
+      }
+      
+      /* Computadoras portátiles y escritorios */
+      @media only screen and (min-width: 1200px) {
+        /* Estilos específicos para computadoras portátiles y escritorios */
+      }
+
