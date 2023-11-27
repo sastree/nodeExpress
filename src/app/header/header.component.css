@@ -1,0 +1,42 @@
+
+section {
+    background: #76AC64;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+.divLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin-left: 2rem;
+}
+.logo {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    transition: all ease .55s;
+    cursor:default;
+    width: 110px;
+}
+.logo:hover {
+    letter-spacing: 0.5rem;
+}
+.navbar {
+    display: flex;
+    width: auto;
+    margin-right: 2rem;
+}
+.navbar a {
+    color:white;
+    transition: all ease .4s;
+    margin: 0px 10px;
+    border-bottom: 3.5px solid transparent;
+}
+.navbar a:hover {
+    border-bottom: 3.5px solid white;
+    
+}

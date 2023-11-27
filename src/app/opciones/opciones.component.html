@@ -1,0 +1,9 @@
+<section>
+    <div routerLink="/node" [ngClass]="{'node-hover': estaHover}" class="node">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" alt="">
+    </div>
+
+    <div routerLink="/express" (mouseover)="expressHover(true)" (mouseout)="expressHover(false)" class="express">
+        <img src="https://media.licdn.com/dms/image/D4E12AQEBg943ptCYpg/article-cover_image-shrink_720_1280/0/1686391647921?e=2147483647&v=beta&t=sTfwUvcIfW7Fuby7hMluDfuRJK3HfYMMWc2SyZR7-GA" alt="">
+    </div> 
+</section>

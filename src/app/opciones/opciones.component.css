@@ -1,0 +1,59 @@
+section {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    background: rgb(196, 196, 196);
+    
+}
+.node {
+    height: 100%;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease .55s;
+    cursor: pointer;
+}
+.express {
+    height: 100%;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease .55s;
+    cursor: pointer;
+}
+.node:hover img{
+    transform: scale(0.75);
+}
+.node:hover{
+    background: white;
+}
+.express:hover{
+    background: white;
+}
+.node img{
+    transform: scale(0.7);
+    transition: all ease .55s;
+    
+}
+.express:hover img{
+    transform: scale(0.75);
+}
+.express img {
+    transform: scale(0.7);
+    transition: all ease .55s;
+}
+.node:hover + .express {
+    background: rgb(93, 93, 93);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: cover;
+    shape-margin: 1rem;
+}
