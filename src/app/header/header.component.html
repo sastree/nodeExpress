@@ -7,16 +7,7 @@
       <a href="/node"><h1>Node</h1></a>
       <a href="/express"><h1>Express</h1></a>
    </div>
-   <div class="bx bx-menu" id="icono-menu"></div>
+   <div (click)="toggleMenu()" class="bx bx-menu" id="icono-menu"></div>
   
 </section>
-<script>
-   let menu = document.querySelector('#icono-menu'); //class de boxicons
-  let navbar = document.querySelector('.navbar');
-  
-  menu.onclick = () => {
-    menu.classList.toggle('bx-x');  //class de boxicons
-    navbar.classList.toggle('open');
-  }
-</script>
 

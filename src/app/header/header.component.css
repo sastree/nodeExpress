@@ -54,27 +54,15 @@ section {
     #icono-menu{      
 		display: block;
 	}
-
-  }
-  
-  /* Tabletas en orientación vertical */
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    /* Estilos específicos para tabletas en orientación vertical */
-  }
-  
-  @media (max-width: 990px){
-	#icono-menu{
-		display: block;
-	}
-	.navbar {
+    .navbar {
 		position: absolute;
-		top: 100%;
+		top: 0;
 		right: -100%;
 		width: 300px;
 		height: 40vh;
-		background: color que sea;
+		background: #76AC64;
 		display: flex;
-		align-items: centre;
+		align-items: center;
 		flex-direction: column;
 		padding: 50px 20px;
 		transition: all .55s ease;
@@ -87,11 +75,6 @@ section {
 	.navbar.open{
 		right: 0;
 	}
+    
 
-}
-  
-  /* Computadoras portátiles y escritorios */
-  @media only screen and (min-width: 1200px) {
-    /* Estilos específicos para computadoras portátiles y escritorios */
   }
-  

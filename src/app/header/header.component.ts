@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  
+  toggleMenu() {
+    const menu = document.querySelector('#icono-menu');
+    const navbar = document.querySelector('.navbar');
+
+    if (menu && navbar) {
+      menu.classList.toggle('bx-x');
+      navbar.classList.toggle('open');
+    }
+  }
 }
