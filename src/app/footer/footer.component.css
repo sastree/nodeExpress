@@ -1,0 +1,24 @@
+.bottom-text {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 30px;
+    background: #76AC64;
+}
+.social {
+    padding: 10px 10px;
+}
+
+.social i{
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+    margin-right: 15px;
+    transition: all ease .55s;
+}
+
+.social i:hover{
+    transform: scale(1.08) translateY(-4px);
+
+}
