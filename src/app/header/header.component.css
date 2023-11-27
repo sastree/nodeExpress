@@ -37,12 +37,13 @@ section {
     display: flex;
     width: auto;
     margin-right: 2rem;
+    transition: all ease .55s;
 }
 .navbar a {
     color:white;
     transition: all ease .4s;
-    margin: 0px 10px;
     border-bottom: 3.5px solid transparent;
+    transition: all ease .55s;
 }
 .navbar a:hover {
     border-bottom: 3.5px solid white;
@@ -58,22 +59,27 @@ section {
 		position: absolute;
 		top: 0;
 		right: -100%;
-		width: 300px;
-		height: 40vh;
+		width: 100vw;
+		height: 100vh;
 		background: #76AC64;
 		display: flex;
 		align-items: center;
 		flex-direction: column;
 		padding: 50px 20px;
 		transition: all .55s ease;
+        display: none;
+        z-index: 1001;
 	}
 	.navbar a{
-		display: block;
-		margin: 7px 0;
-		margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
 	}
 	.navbar.open{
 		right: 0;
+        display: block;
+        margin: 0;
 	}
     
 
