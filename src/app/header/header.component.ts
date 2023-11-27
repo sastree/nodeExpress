@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NodeComponent } from '../node/node.component';
 
 @Component({
   selector: 'app-header',
@@ -13,6 +14,7 @@ export class HeaderComponent {
     if (menu && navbar) {
       menu.classList.toggle('bx-x');
       navbar.classList.toggle('open');
+
     }
   }
 }

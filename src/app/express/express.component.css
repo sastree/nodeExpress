@@ -74,6 +74,7 @@ h1 {
         h1 {
             font-size: 20px;
             text-align: center;
+            margin: 10px 10px;
         }
         .video-container iframe{
             width: auto;
