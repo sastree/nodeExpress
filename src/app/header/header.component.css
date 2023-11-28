@@ -35,9 +35,11 @@ section {
 }
 .navbar {
     display: flex;
-    width: auto;
+    width: 20%;
     margin-right: 2rem;
     transition: all ease .55s;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .navbar a {
     color:white;
