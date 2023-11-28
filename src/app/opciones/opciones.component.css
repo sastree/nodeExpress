@@ -57,3 +57,14 @@ img {
     background-size: cover;
     shape-margin: 1rem;
 }
+
+@media only screen and (max-width: 767px) {
+    section {
+        flex-direction: column;
+    }
+    .node, .express {
+        width: 100%;
+        height: 45vh;
+    }
+
+  }
